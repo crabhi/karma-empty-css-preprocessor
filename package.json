@@ -1,24 +1,21 @@
 {
-  "name": "karma-coffee-preprocessor",
+  "name": "karma-empty-css-preprocessor",
   "version": "0.1.2",
-  "description": "A Karma plugin. Compile coffee script on the fly.",
+  "description": "A Karma plugin. Creates empty files with css suffix.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-coffee-preprocessor.git"
+    "url": "git://github.com/crabhi/karma-empty-css-preprocessor.git"
   },
   "keywords": [
     "karma-plugin",
-    "karma-preprocessor",
-    "coffee-script",
-    "coffee"
+    "karma-preprocessor"
   ],
-  "author": "Vojta Jina <vojta.jina@gmail.com>",
+  "author": "Filip Sedlak <sedlak@flih.cz>",
   "dependencies": {
-    "coffee-script": "1.6.3"
   },
   "peerDependencies": {
     "karma": ">=0.9"
@@ -31,9 +28,6 @@
     "grunt-auto-release": "~0.0.2"
   },
   "contributors": [
-    "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
-    "Niall Smart <niall@pobox.com>",
-    "Zachary Wright Heller <zheller@gmail.com>",
-    "Anthony Torres <anthony.torres@issinc.com>"
+      "Adrian Kalszi <akalszi@chemaxon.com>"
   ]
 }
