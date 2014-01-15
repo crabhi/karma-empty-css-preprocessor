@@ -19,7 +19,7 @@ The easiest way is to keep `karma-empty-css-preprocessor` as a devDependency in 
 }
 ```
 
-You can simple do it by:
+You can simply do it by:
 ```bash
 npm install karma-empty-css-preprocessor --save-dev
 ```
